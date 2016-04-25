@@ -24,6 +24,8 @@
         }
     ],
     "autoload": {
-        "files": [ "quiubas.php" ]
+        "psr-4": {
+            "Quiubas\\": "quiubas/"
+        }
     }
 }
